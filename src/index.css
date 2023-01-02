@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  border: 2px solid black;
+  padding: 0 3rem;
+}
+input {
+  width: 100%;
+}
+/* classes about flexbox */
+.flex {
+  display: flex;
+}
+.justify-center {
+  justify-content: center;
+}
+.item-center {
+  align-items: center;
+}
+.column {
+  flex-direction: column;
+}
+.gap-05 {
+  gap: 0.5rem;
+}
+.gap-1 {
+  gap: 1rem;
+}
+.gap-2 {
+  gap: 2rem;
+}
+.gap-4 {
+  gap: 4rem;
+}
+.gap-6 {
+  gap: 6rem;
+}
+.gap-8 {
+  gap: 8rem;
+}
