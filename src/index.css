@@ -4,17 +4,21 @@
   box-sizing: border-box;
 }
 html {
-  font-size: 62.5%;
+  font-size: 72.5%;
+}
+body {
+  font-family: sans-serif;
 }
 
 .container {
   max-width: 120rem;
   margin: 0 auto;
-  border: 2px solid black;
   padding: 0 3rem;
 }
 input {
   width: 100%;
+  border: 1px solid gainsboro;
+  padding: 0.3rem 1rem;
 }
 /* classes about flexbox */
 .flex {
@@ -46,4 +50,35 @@ input {
 }
 .gap-8 {
   gap: 8rem;
+}
+.flex-1 {
+  flex: 1;
+}
+/* positiong */
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+/*  */
+.box {
+  border: 1px solid gainsboro;
+  padding: 0.4rem 1rem;
+  color: rgba(136, 136, 136, 0.801);
+  cursor: pointer;
+}
+
+.icon {
+  top: 20%;
+  right: 2%;
+  font-size: 1.2rem;
+}
+
+.drop-down {
+  width: 100%;
+  padding: 1rem 0.3rem;
+  bottom: -108%;
+  z-index: 10;
+  border: 1px solid gainsboro;
 }
